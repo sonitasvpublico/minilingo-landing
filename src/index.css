@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+
+  --color-brand-primary: #ff6b6b;
+  --color-brand-secondary: #4ecdc4;
+  --color-brand-accent: #ffe66d;
+  --color-brand-soft: #f7fff7;
+  --color-brand-dark: #2f2e41;
+  --color-night: #1a1535;
+  --color-night-deep: #100d22;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-sans);
+  color: var(--color-brand-dark);
+  background: var(--color-night-deep);
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float-soft 5s ease-in-out infinite;
+}
+
+.animate-rise {
+  animation: rise-in 0.8s ease-out both;
+}
+
+.animate-rise-delay-1 {
+  animation: rise-in 0.8s ease-out 0.12s both;
+}
+
+.animate-rise-delay-2 {
+  animation: rise-in 0.8s ease-out 0.24s both;
+}
+
+.animate-rise-delay-3 {
+  animation: rise-in 0.8s ease-out 0.36s both;
+}
