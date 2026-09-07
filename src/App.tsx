@@ -153,6 +153,11 @@ export default function App() {
               ))}
             </div>
             <img
+              src="/Logo-2-caracol.svg"
+              alt=""
+              className="absolute -bottom-3 -left-2 h-16 w-16 sm:h-20 sm:w-20"
+            />
+            <img
               src="/Logo-1-caracol.svg"
               alt=""
               className="absolute -bottom-3 -right-2 h-16 w-16 sm:h-20 sm:w-20"
