@@ -98,7 +98,7 @@ export default function App() {
             MiniLingo
           </h1>
           <p className="animate-rise-delay-1 mt-4 sm:mt-5 text-lg sm:text-2xl text-white/90 font-semibold max-w-2xl">
-            Learn the alphabet through play — in Spanish, English & Finnish.
+            Learn the ABC with your favorite snail — in Spanish, English & Finnish.
           </p>
           <p className="animate-rise-delay-2 mt-3 text-sm sm:text-base text-white/65 max-w-xl">
             Letter cards, audio pronunciation, and a cheerful game for early
